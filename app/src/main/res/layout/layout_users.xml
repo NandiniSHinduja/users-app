@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/userRL"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/firstName"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="25dp"
+        android:text="@string/firstname"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/lastName"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="25dp"
+        android:layout_toEndOf="@+id/firstName"
+        android:text="@string/lastname"
+        android:textSize="16sp" />
+
+    <ImageView
+        android:id="@+id/userImg"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="25dp"
+        android:layout_toEndOf="@+id/lastName"
+        android:contentDescription="@string/userImage" />
+
+    <TextView
+        android:id="@+id/age"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="25dp"
+        android:layout_toEndOf="@+id/userImg"
+        android:text="@string/age"
+        android:textSize="16sp"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/email"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="25dp"
+        android:layout_toEndOf="@+id/age"
+        android:text="@string/mail"
+        android:textSize="16sp"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/gender"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="25dp"
+        android:layout_toEndOf="@+id/email"
+        android:text="@string/gender"
+        android:textSize="16sp"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/temp"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="25dp"
+        android:layout_toEndOf="@+id/gender"
+        android:text="@string/temp"
+        android:textSize="16sp"
+        android:visibility="gone" />
+
+
+</RelativeLayout>

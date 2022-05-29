@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Users Application</string>
+    <string name="location">Bangalore</string>
+    <string name="temp">temp</string>
+    <string name="firstname">Rajesh</string>
+    <string name="lastname">Khanna</string>
+    <string name="gender">Male</string>
+    <string name="age">63</string>
+    <string name="mail">khanna@gmail.com</string>
+    <string name="userImage">userImage</string>
+    <string name="weatherImage">weatherImage</string>
+</resources>
